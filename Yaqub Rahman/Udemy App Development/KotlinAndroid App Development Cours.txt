@@ -1,0 +1,60 @@
+Kotlin/Android App Development Course Udemy:
+
+val - used to declare variables which will not change (constant)
+var - used to declare variables which will change
+
+double - more precise than a float (numbers with decimals)
+
+Boolean:
+&& - AND
+|| - OR
+! - NOT
+
+Unicode - \u + the Unicode letters e.g.(\u00AE)
+
+
+
+Strings:
+
+string.uppercase
+string.lowercase 
+
+
+
+If Else:
+
+val enteredValue = readln()
+age = enteredValue.toInt()
+age = readln().toInt()  --> string is converted into an integer
+
+if(age == 24){
+     println("")
+}else{
+     println("")
+
+}
+
+
+
+Loops:
+
+var count = 0
+while(count < 3){
+	println("Count is $count")
+	count++
+}
+
+
+You can use break to stop the loop
+
+
+QUESTION -> while(!(user == 1 || user == 2) OR while(user != 1 || user != 2)???
+
+
+Functions:
+
+fun makeCoffee(){
+
+}
+
+
